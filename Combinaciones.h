@@ -11,6 +11,7 @@ class Combinaciones{
 		double dist(int n,int r); // Distribuciones	
 };
 
+// Calcula el total de permutaciones
 double Combinaciones::comb(int n,int r){
 	return (fact(n)/(fact(n-r)*fact(r)));
 }
@@ -19,6 +20,7 @@ double Combinaciones::dist(int n,int r){
 	return (comb(n+r-1,r));
 }
 
+// Calcula el factorial
 double Combinaciones::fact(int num){
 	factorial=1;
 	fflush(stdin);
