@@ -11,6 +11,7 @@ class Fun_Sob_Menu{
 		void menu();
 };
 
+// Metodo que despliega el menu principal
 void Fun_Sob_Menu::menu(){
 	do{
 		sys("cls");
